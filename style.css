@@ -48,10 +48,18 @@ a {
 }
 
 .cta {
+  display: inline-block;
+  margin: 0 auto;
   font-size: 1.25rem;
   font-weight: 300;
   background: #e1ff00;
   padding: 1rem 2.5rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* nav */
@@ -178,14 +186,9 @@ a {
 }
 
 .footer {
-  height: 80vh;
+  padding: 12rem 0;
 
   color: #fefefe;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 @media (max-width: 1024px) {
