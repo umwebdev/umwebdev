@@ -213,6 +213,10 @@ a {
   .header-title {
     font-size: 2.75rem;
   }
+
+  .skills {
+    gap: 0.5rem;
+  }
 }
 
 @media (max-width: 480px) {
