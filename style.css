@@ -175,16 +175,12 @@ a {
   background-color: #222;
 }
 
-.project.project.featured .project-title {
+.project.featured .project-title {
   color: #fefefe;
 }
 
-.project.featured:hover {
-  background-color: #222;
-}
-
-.project.project.featured:hover .project-title {
-  color: #fefefe;
+.project.featured .project-desc {
+  color: #aaa;
 }
 
 .project:last-child {
@@ -223,14 +219,6 @@ a {
   right: -1rem;
   top: 0;
 }
-
-/* .project-title::before {
-  content: url('./assets/icons/newtab.svg');
-
-  position: absolute;
-  top: -1.25rem;
-  right: -1rem;
-} */
 
 /* testimonials */
 #testimonials {
