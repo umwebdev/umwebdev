@@ -9,334 +9,389 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
 
     <!-- style -->
     <link rel="stylesheet" href="style.css" />
-
-    <!-- js -->
-    <script src="./app.js"></script>
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- nav -->
-    <nav id="nav">
+    <nav id="nav" aria-label="Main navigation">
       <div class="container nav">
-        <h2 class="logo">umweb.dev</h2>
-        <a href="mailto:hello@umweb.dev" class="cta nav-cta"
-          >Let's Talk <img src="./assets/icons/arrow.svg" alt="" srcset=""
+        <h2 class="logo"><a href="/">umweb.dev</a></h2>
+        <a
+          href="mailto:hello@umweb.dev"
+          class="cta nav-cta"
+          aria-label="Contact Usama via Email"
+          >Let's Talk
+          <img src="./assets/icons/arrow.svg" alt="" aria-hidden="true"
         /></a>
       </div>
     </nav>
 
-    <!-- header -->
-    <header id="header">
-      <div class="container header">
-        <h1 class="header-title">
-          Converting your designs<br />into Functional Websites
-        </h1>
+    <main id="main-content">
+      <!-- header -->
+      <header id="header">
+        <div class="container header">
+          <h1 class="header-title">
+            Converting your designs<br />into Functional Websites
+          </h1>
 
-        <div class="header-stats">
-          <article class="stat">5 years of<br />experience</article>
-          <article class="stat">64 projects<br />completed</article>
-          <article class="stat">32 happy<br />clients</article>
-        </div>
-
-        <div class="skills">
-          <a class="skill">
-            <img
-              src="./assets/logos/html.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">HTML</h2>
-          </a>
-          <article class="skill">
-            <img
-              src="./assets/logos/css.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">CSS</h2>
-          </article>
-          <article class="skill">
-            <img
-              src="./assets/logos/javascript.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">JavaScript</h2>
-          </article>
-          <article class="skill">
-            <img
-              src="./assets/logos/reactjs.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">ReactJS</h2>
-          </article>
-
-          <article class="skill">
-            <img
-              src="./assets/logos/wordpress.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">WordPress</h2>
-          </article>
-          <article class="skill">
-            <img
-              src="./assets/logos/elementor.svg"
-              alt=""
-              srcset=""
-              class="skill-img"
-            />
-            <h2 class="skill-title">Elementor</h2>
-          </article>
-        </div>
-      </div>
-    </header>
-
-    <!-- projects -->
-    <section id="projects">
-      <div class="projects">
-        <div class="container">
-          <h2 class="section-title">Designs Made Real</h2>
-          <p class="section-desc">
-            These projects show how I take design files and bring them to life
-            as fully functional websites. Each one is a step-by-step
-            transformation from concept to launch.
-          </p>
-        </div>
-
-        <article class="project">
-          <a
-            href="https://cezararvelo.com/"
-            target="_blank"
-            class="project-link"
-          >
-            <div class="container-sm">
-              <h3 class="project-desc">PSD to HTML CSS</h3>
-              <h2 class="project-title">
-                Cezar Arvelo
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project">
-          <a href="https://ceohaven.co/" target="_blank" class="project-link">
-            <div class="container-sm">
-              <h3 class="project-desc">PSD to WordPress</h3>
-              <h2 class="project-title">
-                CEOHaven
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project">
-          <a
-            href="https://hatchingorders.com/"
-            target="_blank"
-            class="project-link"
-          >
-            <div class="container-sm">
-              <h3 class="project-desc">Figma to ReactJS</h3>
-              <h2 class="project-title">
-                Hatching Orders
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project">
-          <a
-            href="https://jotnarmedia.com/"
-            target="_blank"
-            class="project-link"
-          >
-            <div class="container-sm">
-              <h3 class="project-desc">PSD to HTML CSS</h3>
-              <h2 class="project-title">
-                Jotnarmedia
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project">
-          <a
-            href="https://krakenlawgroup.com/"
-            target="_blank"
-            class="project-link"
-          >
-            <div class="container-sm">
-              <h3 class="project-desc">PSD to WordPress</h3>
-              <h2 class="project-title">
-                Kraken Law Group
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project">
-          <a
-            href="https://knifeatlanta.com/"
-            target="_blank"
-            class="project-link"
-          >
-            <div class="container-sm">
-              <h3 class="project-desc">PSD to WordPress</h3>
-              <h2 class="project-title">
-                Knifeatlanta
-                <img src="./assets/icons/newtab.svg" alt="" class="newtab" />
-              </h2>
-            </div>
-          </a>
-        </article>
-
-        <article class="project featured">
-          <a href="/" class="project-link">
-            <div class="container-sm">
-              <h3 class="project-desc">built with HTML CSS</h3>
-              <h2 class="project-title">umweb.dev</h2>
-            </div>
-          </a>
-        </article>
-      </div>
-    </section>
-
-    <!-- testimonials -->
-    <section id="testimonials">
-      <div class="container testimonials">
-        <h2 class="section-title">People Love umweb.dev</h2>
-        <p class="section-desc">Here's what they are saying</p>
-        <article class="testimonial">
-          <div class="rating">
-            <span class="rating-count">5.0</span>
-            <span class="rating-stars">
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-            </span>
+          <div class="header-stats">
+            <article class="stat">5 years of<br />experience</article>
+            <article class="stat">64 projects<br />completed</article>
+            <article class="stat">32 happy<br />clients</article>
           </div>
 
-          <p class="text">
-            Usama has been an incredible asset to our company! He's someone that
-            I've been able to consistently rely on to produce results where it
-            matters.
-            <span class="highlight"
-              >Usama's knowledge and skill have been put to the test with
-              multiple clients and he's delivered each and every time.</span
-            >
-            I highly recommend his services to anyone looking for steadfast
-            reliability and communication.
-          </p>
-
-          <div class="more-info">
-            <div class="author">
+          <div class="skills">
+            <a class="skill">
               <img
-                src="./assets/clients/joshua.jpg"
-                alt=""
-                class="author-img"
+                src="./assets/logos/html.svg"
+                alt="HTML Logo"
+                class="skill-img"
               />
+              <h2 class="skill-title">HTML</h2>
+            </a>
+            <article class="skill">
+              <img
+                src="./assets/logos/css.svg"
+                alt="CSS Logo"
+                class="skill-img"
+              />
+              <h2 class="skill-title">CSS</h2>
+            </article>
+            <article class="skill">
+              <img
+                src="./assets/logos/javascript.svg"
+                alt="JavaScript Logo"
+                class="skill-img"
+              />
+              <h2 class="skill-title">JavaScript</h2>
+            </article>
+            <article class="skill">
+              <img
+                src="./assets/logos/reactjs.svg"
+                alt="ReactJS Logo"
+                class="skill-img"
+              />
+              <h2 class="skill-title">ReactJS</h2>
+            </article>
 
-              <div class="author-info">
-                <h3 class="author-name">Joshua Mobijohn</h3>
-                <h4 class="author-designation">
-                  Creative Director at Kraken Law Group
-                </h4>
-              </div>
-            </div>
-
-            <div class="worked-on">
-              Collaborating since <em>March 2023</em> on projects including
-              <strong>Kraken Law Group</strong> and
-              <strong>Jotnarmedia</strong>.
-            </div>
+            <article class="skill">
+              <img
+                src="./assets/logos/wordpress.svg"
+                alt="WordPress Logo"
+                class="skill-img"
+              />
+              <h2 class="skill-title">WordPress</h2>
+            </article>
+            <article class="skill">
+              <img
+                src="./assets/logos/elementor.svg"
+                alt="Elementor Logo"
+                class="skill-img"
+              />
+              <h2 class="skill-title">Elementor</h2>
+            </article>
           </div>
-        </article>
+        </div>
+      </header>
 
-        <article class="testimonial">
-          <div class="rating">
-            <span class="rating-count">5.0</span>
-            <span class="rating-stars">
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-              <img src="./assets/icons/star.svg" alt="" srcset="" />
-            </span>
-          </div>
-
-          <p class="text">
-            I've worked with Usama for years now on many different projects.
-            Working with Usama, is always an enjoyable experience as he is
-            extremely professional in everything he does.
-            <span class="highlight"
-              >Usama is a great communicator, always hits deadlines and commits
-              himself to solving problems.</span
-            >
-            When it comes to backend web development, research and SEO, Usama is
-            your guy. His ability to make digital concepts come to life as real
-            working products is the reason why I keep coming back for his
-            services.
-          </p>
-
-          <div class="more-info">
-            <div class="author">
-              <img src="./assets/clients/cezar.jpg" alt="" class="author-img" />
-
-              <div class="author-info">
-                <h3 class="author-name">Cezar Arvelo</h3>
-                <h4 class="author-designation">CEO at C&apos;Z Arvelo LLC</h4>
-              </div>
-            </div>
-
-            <p class="worked-on">
-              Collaborating since <em>May 2022</em> on projects including
-              <strong>Cezararvelo</strong>, <strong>CEOHaven</strong> and
-              <strong>Knifeatlanta</strong>.
+      <!-- projects -->
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="projects">
+          <div class="container">
+            <h2 id="projects-title" class="section-title">Designs Made Real</h2>
+            <p class="section-desc">
+              These projects show how I take design files and bring them to life
+              as fully functional websites. Each one is a step-by-step
+              transformation from concept to launch.
             </p>
           </div>
-        </article>
-      </div>
-    </section>
+
+          <article class="project">
+            <a
+              href="https://cezararvelo.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">PSD to HTML CSS</h3>
+                <h2 class="project-title">
+                  Cezar Arvelo
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project">
+            <a
+              href="https://ceohaven.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">PSD to WordPress</h3>
+                <h2 class="project-title">
+                  CEOHaven
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project">
+            <a
+              href="https://hatchingorders.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">Figma to ReactJS</h3>
+                <h2 class="project-title">
+                  Hatching Orders
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project">
+            <a
+              href="https://jotnarmedia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">PSD to HTML CSS</h3>
+                <h2 class="project-title">
+                  Jotnarmedia
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project">
+            <a
+              href="https://krakenlawgroup.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">PSD to WordPress</h3>
+                <h2 class="project-title">
+                  Kraken Law Group
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project">
+            <a
+              href="https://knifeatlanta.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              <div class="container-sm">
+                <h3 class="project-desc">PSD to WordPress</h3>
+                <h2 class="project-title">
+                  Knifeatlanta
+                  <img
+                    src="./assets/icons/newtab.svg"
+                    alt="Opens in new tab"
+                    class="newtab"
+                  />
+                </h2>
+              </div>
+            </a>
+          </article>
+
+          <article class="project featured">
+            <a href="/" class="project-link">
+              <div class="container-sm">
+                <h3 class="project-desc">built with HTML CSS</h3>
+                <h2 class="project-title">umweb.dev</h2>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section
+        id="testimonials"
+        aria-labelledby="testimonials-title"
+        tabindex="0"
+        role="region"
+      >
+        <div class="container testimonials">
+          <h2 id="testimonials-title" class="section-title">
+            People Love umweb.dev
+          </h2>
+          <p class="section-desc">Here's what they are saying</p>
+
+          <article class="testimonial">
+            <blockquote>
+              <div class="rating" role="img" aria-label="5 out of 5 stars">
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <span class="rating-count">5.0</span>
+              </div>
+
+              <p class="text">
+                Usama has been an incredible asset to our company! He's someone
+                that I've been able to consistently rely on to produce results
+                where it matters.
+                <span class="highlight">
+                  Usama's knowledge and skill have been put to the test with
+                  multiple clients and he's delivered each and every time.
+                </span>
+                I highly recommend his services to anyone looking for steadfast
+                reliability and communication.
+              </p>
+            </blockquote>
+
+            <footer class="more-info">
+              <div class="author">
+                <img
+                  src="./assets/clients/joshua.webp"
+                  alt="Photo of Joshua Mobijohn"
+                  class="author-img"
+                />
+
+                <div class="author-info">
+                  <h3 class="author-name">Joshua Mobijohn</h3>
+                  <h4 class="author-designation">
+                    Creative Director at Kraken Law Group
+                  </h4>
+                </div>
+              </div>
+
+              <p class="worked-on">
+                Collaborating since
+                <time datetime="2023-03">March 2023</time> on projects including
+                <strong>Kraken Law Group</strong> and
+                <strong>Jotnarmedia</strong>.
+              </p>
+            </footer>
+          </article>
+
+          <article class="testimonial">
+            <blockquote>
+              <div class="rating" role="img" aria-label="5 out of 5 stars">
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <img src="./assets/icons/star.svg" alt="" aria-hidden="true" />
+                <span class="rating-count">5.0</span>
+              </div>
+
+              <p class="text">
+                I've worked with Usama for years now on many different projects.
+                Working with Usama is always an enjoyable experience as he is
+                extremely professional in everything he does.
+                <span class="highlight">
+                  Usama is a great communicator, always hits deadlines and
+                  commits himself to solving problems.
+                </span>
+                When it comes to backend web development, research and SEO,
+                Usama is your guy. His ability to make digital concepts come to
+                life as real working products is the reason why I keep coming
+                back for his services.
+              </p>
+            </blockquote>
+
+            <footer class="more-info">
+              <div class="author">
+                <img
+                  src="./assets/clients/cezar.webp"
+                  alt="Photo of Cezar Arvelo"
+                  class="author-img"
+                />
+
+                <div class="author-info">
+                  <h3 class="author-name">Cezar Arvelo</h3>
+                  <h4 class="author-designation">CEO at C&apos;Z Arvelo LLC</h4>
+                </div>
+              </div>
+
+              <p class="worked-on">
+                Collaborating since <time datetime="2022-05">May 2022</time> on
+                projects including <strong>Cezararvelo</strong>,
+                <strong>CEOHaven</strong> and <strong>Knifeatlanta</strong>.
+              </p>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="container contact">
+          <h2 id="contact-title" class="section-title">Let&apos;s Connect</h2>
+          <p class="section-desc">
+            Got an idea or a spark of inspiration? I&apos;d love to help you
+            bring it to life on the web. Reach out, and let&apos;s make it
+            happen together! Book a free call with me now.
+          </p>
+          <div class="flex-center">
+            <a
+              href="mailto:hello@umweb.dev"
+              class="cta"
+              aria-label="Contact Usama via Email"
+              >Let's Talk
+              <img src="./assets/icons/arrow.svg" alt="" aria-hidden="true"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- footer -->
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
       <div class="container footer">
-        <h2 class="section-title">Let&apos;s Connect</h2>
-        <p class="section-desc">
-          Got an idea or a spark of inspiration? I&apos;d love to help you bring
-          it to life on the web. Reach out, and let&apos;s make it happen
-          together! Book a free call with me now.
-        </p>
-        <div class="flex-center">
-          <a href="mailto:hello@umweb.dev" class="cta"
-            >Let's Talk <img src="./assets/icons/arrow.svg" alt="" srcset=""
-          /></a>
-        </div>
-      </div>
-
-      <div class="footer-bottom-bar">
-        <p class="footer-bottom-bar-text">
+        <p class="footer-text">
           design inspired from
-          <a href="https://www.squareblack.com/" target="_blank">squareblack</a>
+          <a href="https://www.squareblack.com/" rel="noopener noreferrer"
+            >squareblack</a
+          >
         </p>
       </div>
     </footer>
