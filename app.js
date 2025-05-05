@@ -9,6 +9,8 @@ window.addEventListener('load', () => {
     smoothTouch: 0.1,
   })
 
+  ScrollTrigger.refresh()
+
   // split the text
   const split = new SplitText('.header-title', { type: 'words' })
 
