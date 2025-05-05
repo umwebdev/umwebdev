@@ -15,7 +15,7 @@ const tl = gsap.timeline()
 
 tl.from(split.words, {
   opacity: 0,
-  y: 10,
+  y: 20,
   stagger: 0.2,
   ease: 'back',
 })
