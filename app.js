@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
     )
     .from(
       '.skill',
-      { autoAlpha: 0, y: 10, stagger: 0.1, ease: 'back.out(1.7)' },
+      { autoAlpha: 0, stagger: 0.1, ease: 'back.out(1.7)' },
       '-=0.25'
     )
     .from('.logo', { autoAlpha: 0, y: '-100px', ease: 'back.out(1.7)' })
