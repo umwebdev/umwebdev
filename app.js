@@ -2,14 +2,14 @@ window.addEventListener('load', () => {
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText)
 
   // create smoother
-  ScrollSmoother.create({
-    wrapper: '#smooth-wrapper',
-    content: '#smooth-content',
-    smooth: 1,
-    smoothTouch: 0.1,
-  })
+  // ScrollSmoother.create({
+  //   wrapper: '#smooth-wrapper',
+  //   content: '#smooth-content',
+  //   smooth: 1,
+  //   smoothTouch: 0.1,
+  // })
 
-  ScrollTrigger.refresh()
+  // ScrollTrigger.refresh()
 
   // split the text
   const split = new SplitText('.header-title', { type: 'words' })
