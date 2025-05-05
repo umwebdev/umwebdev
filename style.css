@@ -141,7 +141,7 @@ a {
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -152,7 +152,7 @@ a {
   border: 1px solid #eee;
   border-radius: 0.25rem;
 
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
