@@ -141,7 +141,6 @@ a {
 
 .skills {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -157,12 +156,14 @@ a {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-
-  will-change: transform;
 }
 
-.skill .skill-img {
+.skill-img {
   max-width: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-title {

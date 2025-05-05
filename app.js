@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
   // reveal the container immediately (before any frames)
   gsap.set('.header-title', { visibility: 'visible' })
   // set your from-values right away
-  // gsap.set(split.words, { autoAlpha: 0, y: 20 })
+  gsap.set(split.words, { autoAlpha: 0, y: 20 })
 
   // now your timeline just animates up to the natural state
   const tl = gsap.timeline()
